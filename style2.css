@@ -1,0 +1,121 @@
+#landingpage {
+    background-color: #50929e;
+    color: white;
+    font-weight: bold;
+}
+
+.container{
+  display: grid;
+  grid-template: auto auto;
+  grid-column-gap: 10px;
+  padding: 10px;
+}
+
+#body {
+    background-color: #7196ad;
+    background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/SAKGwKC/cartoon-cloud-animation-with-loop_v211ezdke__F0005.png);
+    background-repeat: repeat-x;
+    background-position: stretch;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+  .main {
+    width: 75%;
+    float: center;
+    padding: 10px;
+  }
+
+  .thumbnailmain {
+    width: 20%;
+    float: center;
+    padding: 10px
+  }
+
+  .textmain{
+      width: 20%;
+      float: center;
+      padding: 50px;
+  }
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+  }
+  
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+/* Left and right column */
+.column.side {
+  width: 10%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+  }
+
+  .column2 {
+    float: left;
+    width: 50%;
+    padding: 15px;
+  }
+
+  .column3 {
+    float: left;
+    width: 25%;
+    padding: 5px;
+  }
+
+  .column4 {
+    float: left;
+    width: 45%;
+    padding: 15px;
+  }
+
+  
+  .column5 {
+    float: center;
+    width: 75%;
+    padding: 15px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+  }
