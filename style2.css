@@ -120,6 +120,24 @@
     }
   }
 
+  @media screen and (max-width:600px) {
+    .column2 {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width:600px) {
+    .column4 {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width:600px) {
+    .column3 {
+      width: 100%;
+    }
+  }
+
 @media screen and (min-width: 480px) {
   body {
     background-color: #396cb9;
